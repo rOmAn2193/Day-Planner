@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		E4C1FCDE1C46E00A00958A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C1FCDC1C46E00A00958A1B /* LaunchScreen.storyboard */; };
 		E4C1FCE91C46E00A00958A1B /* Day_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1FCE81C46E00A00958A1B /* Day_PlannerTests.swift */; };
 		E4C1FCF41C46E00A00958A1B /* Day_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1FCF31C46E00A00958A1B /* Day_PlannerUITests.swift */; };
+		E4C1FD021C4769A700958A1B /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1FD011C4769A700958A1B /* TasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E4C1FCEF1C46E00A00958A1B /* Day PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C1FCF31C46E00A00958A1B /* Day_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerUITests.swift; sourceTree = "<group>"; };
 		E4C1FCF51C46E00A00958A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C1FD011C4769A700958A1B /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				E4C1FCD01C46E00900958A1B /* AppDelegate.swift */,
 				E4C1FCD21C46E00900958A1B /* ViewController.swift */,
+				E4C1FD011C4769A700958A1B /* TasksTableViewController.swift */,
 				E4C1FCD41C46E00900958A1B /* Main.storyboard */,
 				E4C1FCDA1C46E00A00958A1B /* Assets.xcassets */,
 				E4C1FCDC1C46E00A00958A1B /* LaunchScreen.storyboard */,
@@ -211,7 +214,7 @@
 				};
 			};
 			buildConfigurationList = E4C1FCC81C46E00900958A1B /* Build configuration list for PBXProject "Day Planner" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -264,6 +267,7 @@
 			files = (
 				E4C1FCD91C46E00A00958A1B /* Day_Planner.xcdatamodeld in Sources */,
 				E4C1FCD31C46E00900958A1B /* ViewController.swift in Sources */,
+				E4C1FD021C4769A700958A1B /* TasksTableViewController.swift in Sources */,
 				E4C1FCD11C46E00900958A1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
